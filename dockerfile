@@ -6,7 +6,7 @@ RUN apt-get update
 
 RUN apt-get install -y nginx
 
-ADD static-website-example/ /var/www/html/
+ADD static-website-example-master/ /var/www/html/
 
 EXPOSE 80
 
